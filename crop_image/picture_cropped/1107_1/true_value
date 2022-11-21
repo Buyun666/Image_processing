@@ -1,0 +1,58 @@
+car:
+       geometry
+          dim x / y / z = 4.674 / 1.780 / 1.428
+        
+      position
+          x/y/z = 41.991548 / 15.807098 / 0.071688
+          h/p/r = 1.116683 / -0.000781 / -0.001858
+    
+
+
+truck:
+   geometry
+          dim x / y / z = 5.620 / 2.530 / 3.542
+        
+      position
+          x/y/z = 32.297340 / -1.633129 / 0.054652
+          h/p/r = 0.398789 / -0.001574 / 0.015371
+     
+
+
+
+person:
+      geometry
+          dim x / y / z = 0.600 / 0.700 / 1.800
+        
+      position
+          x/y/z = 13.748777 / -7.934825 / 0.021763
+         
+   
+
+
+
+traffic_light:
+    position1
+          x/y/z = 41.973539 / -1.017905 / 4.471671
+
+   
+   position2
+          x/y/z = 41.190156 / -3.935477 / 4.470286
+
+
+
+
+
+
+ego:
+  geometry
+          dim x / y / z = 4.790 / 1.952 / 1.768
+       
+      position
+          x/y/z = 501.604433 / 213.482466 / 0.002544
+          h/p/r = 0.004314 / 0.001768 / -0.000000
+          flags = 0x3, type = RDB_COORD_TYPE_INERTIAL, system = 0
+
+        
+
+
+
